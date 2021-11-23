@@ -1,0 +1,195 @@
+		/* CSS Main Menu */
+
+.navmenu {
+	width: 100%;
+	background: #303030;
+	display: inline-block;
+	background:#1e496a;
+}
+
+#menu {
+	
+	font-size: 18px;
+	position: relative;
+	width:20px;
+	left:10px;
+	top:10px;
+	font-weight: 500;
+	cursor: pointer;
+	
+}
+#menu .line
+{
+	   
+        height: 3px;
+        width: 20px;
+    	margin-bottom:4px;
+        background-color: white;
+        display: block;
+	align-items: center;
+}
+
+
+#menu a {
+	text-decoration: none
+}
+
+nav {
+	display: none;
+	background:#1e496a;
+	
+}
+
+nav ul {
+	list-style-type: none;
+	padding-left: 0;
+	font-size: 0;
+	background:#1e496a;
+}
+
+nav li {
+	display: block;
+	font-size: 16px;
+	color: white;
+        margin: 0 5px;
+}
+
+ul.navbar>li>a {
+	color: #fff
+}
+
+nav a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: inherit
+}
+
+
+/*==Dropdown Menu==*/
+
+.sub-menu li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+ul.navbar li ul.sub-menu {
+	display: none;
+	position: absolute
+}
+
+ul.navbar li {
+	position: relative;
+}
+
+ul.navbar li:hover ul.sub-menu {
+	display: block
+}
+
+.sub-menu li {
+	margin-left: 0!important
+}
+
+ul.sub-menu>li>a {
+	color: #fff;
+}
+ul.navbar>li>a:hover,
+ul.sub-menu>li>a:hover {
+	color: #66a992;
+}
+
+@media only screen and (max-width:720px) {
+	nav ul {
+		top:150px;
+		position: absolute;
+		width: 100%!important
+		
+	}
+	#sub-menu {
+		display: none;
+		
+	}
+	nav a {
+		padding: 5px 10px;
+	}
+}
+
+@media only screen and (min-width:720px) {
+	#menu {
+		display: none;
+	}
+    #navbar{
+    height: 50px;
+    line-height: 50px;
+}
+	nav {
+		display: block!important
+	}
+	nav li {
+		display: inline-block;
+	}
+    #search-form input {
+	height: 50px;
+    padding: 10px;
+	margin: 5px 0;
+ }
+}
+
+
+/*----- Search -----*/
+
+#search-form {
+	display: inline-block;
+	padding-top: 4px;
+	padding-right: 5px;
+	float: right
+}
+
+#search-form input {
+	width: 200px;
+	float: left;
+	border-radius: 2px 0 0 2px;
+	font-size: 13px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 0;
+    outline: 0;
+	font-size: 100%;
+	font: inherit
+}
+
+#button-submit {
+	width: auto!important;
+	float: right;
+	border-radius: 0 2px 2px 0;
+	background: #0089d1;
+	font-size: 13px;
+	font-weight: 600;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+	color: #fff
+}
+#button-submit:hover
+{
+	background:#2894d4;
+}
+@media only screen and (max-width: 720px) {
+    .navmenu {
+        padding: 20px;
+    }
+    #navbar{
+         display: none;
+        height: 24px;
+        line-height: 24px;
+	
+    }
+	.toggle-nav {
+		padding: 6px 10px
+	}
+	#search-form input {
+		width: 150px;
+        padding: 5px;
+        margin: 0;
+	}
+}
+

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1519" height="466" viewBox="0 0 1519 466">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#023041" stop-opacity="0.671"/>
+      <stop offset="0" stop-color="#1eb7f0" stop-opacity="0.671"/>
+      <stop offset="1" stop-color="#20aee3" stop-opacity="0.671"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5c98c7"/>
+      <stop offset="1" stop-color="#5c97c6"/>
+      <stop offset="1" stop-color="#457d83"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a494c4"/>
+      <stop offset="0" stop-color="#643e7c"/>
+      <stop offset="0.864" stop-color="#5d3574"/>
+      <stop offset="1" stop-color="#5a3171"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3ca7af"/>
+      <stop offset="1" stop-color="#545454"/>
+    </linearGradient>
+    <clipPath id="clip-SPRK_default_preset_name_custom_1">
+      <rect width="1519" height="466"/>
+    </clipPath>
+  </defs>
+  <g id="SPRK_default_preset_name_custom_1" data-name="SPRK_default_preset_name_custom – 1" clip-path="url(#clip-SPRK_default_preset_name_custom_1)">
+    <rect width="1519" height="466" fill="#fff"/>
+    <g id="Rectangle_1" data-name="Rectangle 1" stroke="#707070" stroke-width="1" fill="url(#linear-gradient)">
+      <rect width="508" height="466" stroke="none"/>
+      <rect x="0.5" y="0.5" width="507" height="465" fill="none"/>
+    </g>
+    <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(506)" stroke="#707070" stroke-width="1" fill="url(#linear-gradient-2)">
+      <rect width="508" height="466" stroke="none"/>
+      <rect x="0.5" y="0.5" width="507" height="465" fill="none"/>
+    </g>
+    <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(1011)" stroke="#707070" stroke-width="1" fill="url(#linear-gradient-3)">
+      <rect width="508" height="466" stroke="none"/>
+      <rect x="0.5" y="0.5" width="507" height="465" fill="none"/>
+    </g>
+    <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(426 313)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="3" height="18" stroke="none"/>
+      <rect x="0.5" y="0.5" width="2" height="17" fill="none"/>
+    </g>
+    <path id="paper-plane-solid" d="M128.053.783,3.37,68.118A5.889,5.889,0,0,0,3.962,79l28.6,11.231,77.285-63.76c1.48-1.234,3.578.655,2.313,2.09l-64.8,73.908v20.271c0,5.943,7.667,8.285,11.433,3.979l17.082-19.465L109.384,120.4a6.528,6.528,0,0,0,8.877-4.583L137.629,7.028C138.544,1.941,132.707-1.735,128.053.783Z" transform="translate(291.275 50.031)" stroke="#fff" stroke-width="10" fill="url(#linear-gradient-4)"/>
+    <path id="rocket-solid" d="M159.071,5.5a5.229,5.229,0,0,0-3.844-3.512C145.088,0,137.149,0,129.245,0c-32.51,0-52,15.906-66.56,36.881H29.866c-5.148,0-11.2,3.422-13.506,7.631L.792,72.983A7.614,7.614,0,0,0,0,76.066c0,3.819,3.386,6.915,7.56,6.915H40.252l-7.078,6.474a8.821,8.821,0,0,0,0,13.038L49.2,117.161a10.969,10.969,0,0,0,14.259,0l7.078-6.474v29.921c0,3.819,3.386,6.915,7.56,6.915a9.69,9.69,0,0,0,3.372-.725l31.091-14.231c4.607-2.1,8.348-7.635,8.348-12.349V90.126c22.862-13.344,40.321-31.235,40.321-60.823C161.262,22.042,161.262,14.78,159.071,5.5Zm-38.13,42.9c-6.957,0-12.595-5.162-12.594-11.527s5.639-11.523,12.6-11.523,12.6,5.159,12.6,11.524S127.9,48.4,120.941,48.406Z" transform="translate(790.865 45.304)" fill="#5c98c7" stroke="#f5f5f5" stroke-width="10"/>
+    <path id="thumbs-up-solid" d="M37.6,62.688H8.677C3.885,62.688,0,65.7,0,69.4v67.166c0,3.71,3.885,6.717,8.677,6.717H37.6c4.792,0,8.677-3.007,8.677-6.717V69.4C46.28,65.7,42.395,62.688,37.6,62.688Zm-14.462,69.4c-4.792,0-8.677-3.007-8.677-6.717s3.885-6.717,8.677-6.717,8.677,3.007,8.677,6.717S27.932,132.093,23.14,132.093Zm115.7-109.3c0,11.87-9.39,18.529-12.032,26.46h36.779c12.075,0,21.475,7.765,21.532,16.259a18.1,18.1,0,0,1-7.028,13.768l-.04.031a19.036,19.036,0,0,1-3.365,22.24c3.139,7.247-.025,16.149-5.923,20.921,1.554,4.925.811,9.116-2.223,12.491-7.379,8.207-25.669,8.322-41.136,8.322h-1.029c-17.459,0-31.747-4.925-43.228-8.879-5.769-1.987-13.313-4.446-19.036-4.528-2.365-.034-4.26-1.527-4.26-3.358V66.7a3.032,3.032,0,0,1,1.286-2.385C73.459,53.359,79.617,41.76,91.357,32.658c5.353-4.151,7.3-10.421,9.181-16.484C102.146,11,105.509,0,112.806,0,121.484,0,138.839,2.239,138.839,22.8Z" transform="translate(1274.88 36)" fill="#a494c4" stroke="#fff6f6" stroke-width="10"/>
+    <text id="Free_Shipping_on_orders_over_100" data-name="Free Shipping 
+on orders over $100" transform="translate(77 259)" fill="#ffecec" font-size="38" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Free Shipping </tspan><tspan x="0" y="51">on orders over $100</tspan></text>
+    <text id="Fast_Delivery_Worldwide" data-name="Fast Delivery 
+Worldwide" transform="translate(565 259)" fill="#fff" font-size="40" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Fast Delivery </tspan><tspan x="0" y="53">Worldwide</tspan></text>
+    <text id="Big_Choice_of_Products" data-name="Big Choice
+of Products" transform="translate(1063 268)" fill="#fff" font-size="40" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Big Choice</tspan><tspan x="0" y="53">of Products</tspan></text>
+  </g>
+</svg>

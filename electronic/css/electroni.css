@@ -1,0 +1,168 @@
+			body
+	{
+		background:#0892d0;
+		
+	}
+	.product
+	{
+		width:90%;
+		margin: auto;
+	}
+	.title
+	{
+		margin-bottom:25px;
+		text-align: center;
+	}
+	.card
+	{
+		
+		float: left;
+		width:20%;
+		margin-left:20px;
+		margin-bottom:100px;
+		background: white;
+		height:350px;
+	}
+	.card:hover
+	{
+		cursor: pointer;
+		box-shadow:2px 2px 2px 2px rgba(0,0,0,0.5);
+		border:1px solid gray;		
+	}
+	.discount
+	{
+		
+		position: absolute;
+		top:-2 0px;
+		width: auto;
+		border:1px solid black;
+		font-size:12px;	
+		border-radius:0px 20px 20px 0px;
+		padding:5px;
+	}
+	.image
+	{
+	
+		 position: relative;
+		align-items: center;
+		box-shadow:10px rgba(200,100,100,0.5);
+		height:200px;
+	}
+	.card:hover .ullinks
+	{	
+		display: block;
+		animation:moveleft;
+		animation-duration: 1s;	
+	}
+	@keyframes moveleft
+	{
+		from {left:-20px; opacity:0;}
+  		to {left:10px; opacity:1;}
+	}
+	.image ul
+	{
+		display: none;
+		position: absolute;
+		left:0px;
+		bottom:0px;
+	}
+	.price
+	{
+		float: left;
+		text-align: center;
+		margin: auto;
+	}
+	.image li
+	{
+			
+		margin-left: 13px;
+		float: left;
+		display: flex;
+		flex-direction: row;
+	}
+	.image li i
+	{
+		border:1px solid black;
+		padding:5px;
+		color: black;
+		border-radius:10%;
+	}
+	.image li i:hover
+	{
+		border-color: red;	
+		color: red;
+	}
+	.image img
+	{
+		width:180px;
+		height:180px;
+		 display: block;
+		  margin-left: auto;
+		  margin-right: auto;
+		margin-top:10px;
+		
+	}
+	.details .line
+	{
+		width:80%;
+		margin: auto;
+		height:1px;
+		background: black;	
+		margin-top:2px;
+	}
+	.details
+	{
+		
+		margin-top:20px;
+		text-align: center;
+		font-size:13px;
+		
+		height:130px;
+	}
+	.details #cardcart
+	{
+		margin-top:10px;
+		width:80%;
+		font-size:15px;
+		margin-left:20px;
+		
+		
+	}
+	.details #cardcart:hover
+	{
+		background: #318CE7;
+	}
+	.details h2
+	{
+		font-size:18px;
+		color:#0E3386;
+	}
+	@media screen and (max-width:1150px)
+	{	
+		.card
+		{
+			width:30%;
+			margin-left:20px;
+		}
+
+	}
+	@media screen and (max-width:800px)
+	{	
+		.card
+		{
+			width:43%;
+			margin-left:20px;
+		}
+
+	}
+	@media screen and (max-width:540px)
+	{	
+		.card
+		{
+			width:100%;
+			margin-left:0px;
+		}
+		
+
+	}
+	
